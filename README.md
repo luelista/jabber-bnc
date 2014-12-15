@@ -11,12 +11,12 @@ best available IRC client for Android when combined with this script.
 Install
 =======
 
-Clone this git repository to your server. Run `npm install` in this directory
-to pull in the dependencies `node-irc` and `node-xmpp-component`.
+1.  Clone this git repository to your server. Run `npm install` in this directory
+    to pull in the dependencies `node-irc` and `node-xmpp-component`.
 
-Create a `config.js` with contents similar to this:
-
-```
+2.  Create a `config.js` with contents similar to this:
+    
+    ```
 module.exports = {
 
     // You need to have access to a Jabber server to which you can attach
@@ -50,7 +50,7 @@ module.exports = {
 };
 ```
 
-Run with `node index.js`. To keep it running in the background, I use [daemontools][4].
+3.  Run with `node index.js`. To keep it running in the background, I use [daemontools][4].
 
 
 [1]: http://en.wikipedia.org/wiki/BNC_%28software%29
