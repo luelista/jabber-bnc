@@ -2,3 +2,5 @@
 config.js
 \#*#
 node_modules
+occupants_cache.json
+
