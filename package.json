@@ -1,0 +1,12 @@
+{
+  "name": "jabber-bnc",
+  "description": "IRC Bouncer with xmpp frontend",
+  "version": "0.0.1",
+  "author": "Max Weller",
+  "repository": "https://gitlab.teamwiki.de/max/jabber-bnc",
+  "homepage": "https://gitlab.teamwiki.de/max/jabber-bnc",
+  "dependencies": {
+    "irc": "~0.3.7",
+    "node-xmpp-component": "~1.0.0-alpha1"
+  }
+}
